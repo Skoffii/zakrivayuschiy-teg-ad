@@ -85,7 +85,7 @@
   background-color: #fff;
   border: var(--border-settings);
   font: var(--main-font);
-  font-weight: 785;
+  font-variation-settings: "wght" 785;
   padding-inline: 10px;
   padding-block: 4px;
 }
@@ -126,10 +126,15 @@
   font-family: var(--accent-font), sans-serif;
   font-weight: 400;
   font-size: 14px;
-  -webkit-text-stroke: 1px #fff;
   justify-self: end;
   margin-inline-end: var(--base-margin);
   margin-block-start: var(--base-margin);
+}
+
+@supports (-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff) {
+  .post__watermark {
+    -webkit-text-stroke: 1px #fff;
+  }
 }
 
 .post__buttons {
