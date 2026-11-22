@@ -1,1 +1,13 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --normal_font-weight: 400;
+    --bold_font-weight: 700;
+    --main-font: 'Inter';
+    --accent-font: 'PressStart2P';
+    --block-width: clamp(375px, 90%, 700px);
+    /* --block-height: clamp(820px, 90%, 998px); */
+    --border-settings: 2px solid #000;
+    --margin-settings: 50px;
+    --base-margin: 25px;
+    
+}
