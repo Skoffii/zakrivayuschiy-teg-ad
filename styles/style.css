@@ -275,7 +275,7 @@ dialog::backdrop {
     margin-inline: 0;
   }
 
-  .footer__save_button  {
+  .footer__save_button {
     box-sizing: border-box;
     width: 100%;
     height: auto;
@@ -373,40 +373,40 @@ button .save-icon {
   transition-delay: 0.03s;
 }
 
-.heart_icon:hover .core{
+.heart_icon:hover .core {
   fill: #000;
   transition: fill 0.3s linear;
   transition-delay: 0ms;
 }
 
-.heart_icon:hover .main-body{
+.heart_icon:hover .main-body {
   fill: #000;
   transition: fill 0.1s linear;
 }
 
-.heart_icon:active .core{
+.heart_icon:active .core {
   fill: var(--fill-color);
   transition: fill 0.3s linear;
   transition-delay: 0ms;
 }
 
-.heart_icon:active .main-body{
+.heart_icon:active .main-body {
   fill: var(--fill-color);
   transition: fill 0.1s linear;
 }
 
-.heart_icon.is-liked .core{
+.heart_icon.is-liked .core {
   fill: var(--fill-color);
   transition: fill 0.3s linear;
   transition-delay: 0ms;
 }
 
-.heart_icon.is-liked .main-body{
+.heart_icon.is-liked .main-body {
   fill: var(--fill-color);
   transition: fill 0.1s linear;
 }
 
-.heart_icon.is-liked .contour{
+.heart_icon.is-liked .contour {
   fill: var(--fill-color);
   transition: fill 0.3s linear;
   transition-delay: 0.06s;
@@ -416,6 +416,6 @@ button .save-icon {
   animation: heart-scale 0.3s ease-in 0.1s;
 }
 
-.heart_icon.is-liked .sparks{
+.heart_icon.is-liked .sparks {
   animation: sparkles-opacity 0.3s ease-in;
 }
