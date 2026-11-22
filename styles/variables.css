@@ -9,5 +9,7 @@
     --border-settings: 2px solid #000;
     --margin-settings: 50px;
     --base-margin: 25px;
-    
+    --contour-color: #000;
+    --fill-color: #ff0000;
+
 }
