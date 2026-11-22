@@ -18,25 +18,11 @@
   font-family: var(--main-font);
   background-attachment: fixed;
   background-size: cover;
-  background-image: 
-  repeating-linear-gradient(
-    to right,
-    #d3d3d3 0 2px,
-    transparent 2px 4px
-  ),
-  repeating-linear-gradient(
-    to bottom,
-    #d3d3d3 0 2px,
-    transparent 2px 4px
-  ),
-  linear-gradient(
-    to bottom,
-    #e7e7e7 0%,
-    #e7e7e7 0.01%,
-    #1a1a1a 100%
-  );
+  background-image:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 }
-
 
 .header {
   display: grid;
@@ -49,7 +35,7 @@
   justify-items: center;
   align-items: center;
   text-align: center;
-  gap: 20px
+  gap: 20px;
 }
 
 .logo__title_main {
@@ -77,8 +63,6 @@
   align-self: center;
   margin-block-end: var(--margin-settings);
 }
-
-
 
 .post__title {
   background-color: #fff;
@@ -150,6 +134,7 @@
 .heart_icon {
   display: block;
   transform-origin: center;
+  transform-box: fill-box;
 }
 
 .post__like_button {
@@ -226,11 +211,11 @@
 dialog:not([open]) {
   pointer-events: none;
   opacity: 0;
-} 
+}
 
 dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.75);
-} 
+}
 
 .first_sprint_start {
   filter: grayscale(0.7) brightness(1.1) contrast(0.95);
@@ -243,7 +228,7 @@ dialog::backdrop {
 }
 
 .second_sprint_start {
-  filter: hue-rotate(30deg)
+  filter: hue-rotate(30deg);
 }
 
 .second_sprint_end {
@@ -320,7 +305,7 @@ dialog::backdrop {
 }
 
 .button:focus {
-  outline: none;  
+  outline: none;
 }
 
 .button:focus-visible {
@@ -412,7 +397,7 @@ button .save-icon {
   transition-delay: 0.06s;
 }
 
-.heart_icon.is-liked .hart_icon_parts {
+.heart_icon.is-liked .heart_icon_parts {
   animation: heart-scale 0.3s ease-in 0.1s;
 }
 
