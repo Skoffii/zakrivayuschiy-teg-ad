@@ -11,9 +11,11 @@
 */
 @keyframes heart-scale {
     from {
+        transform-origin: center;
         transform: scale(1);
     }
     to {
+        transform-origin: center;
         transform: scale(1.25);
     }
 }

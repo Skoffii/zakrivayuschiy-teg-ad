@@ -46,7 +46,7 @@
 
 .logo__title_second {
   font-family: var(--accent-font), sans-serif;
-  font-size: clamp(14px, 1.4375rem, 23px);
+  font-size: clamp(14px, 3vw, 23px);
   font-weight: 400;
   overflow-wrap: anywhere;
 }
@@ -244,7 +244,6 @@ dialog::backdrop {
 }
 
 .now {
-  background-color: #fff;
   filter: hue-rotate(90deg) contrast(0.6) blur(1.5px) brightness(1.4);
 }
 
